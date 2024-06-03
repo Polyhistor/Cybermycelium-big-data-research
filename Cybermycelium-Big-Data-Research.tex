@@ -113,15 +113,10 @@ The available body of knowledge and the knowledge from practice highlight three 
 
 To discuss the integral facets that embroil these architectures, one must look at the characteristics of these architectures and the ways in which they achieve their ends. Except for one case \cite{AtaeiApsec}, all these architectures and RAs were designed underlying monolithic data pipeline architecture with four major components being data consumer, data processing, data infrastructure and data providers \cite{ataei2022state}.
 
-The process of turning data into actionable insights in these architectures usually follow a similar lifecycle: 1) \textbf{Data Ingestion:} system beings to ingest data from all corners of the enterprise, including both transactional, operational and external data, 2) Data Transformation: data captured from the previous step is then
+The process of turning data into actionable insights in these architectures usually follow a similar lifecycle: 1) \textbf{Data Ingestion:} system beings to ingest data from all corners of the enterprise, including transactional, operational and external data, 2) \textbf{Data Transformation:} data captured from the previous step is then
 cleansed for duplication, quality, and potentially scrubbed for privacy poli-
-cies. This data then goes through a multifaceted enrichment process to  facilitate data analysis. 
+cies. This data then goes through a multifaceted enrichment process to  facilitate data analysis, 3) \textbf{Data Serving:} at this stage, data is ready to be served to diverse array of needs ranging from machine learning to marketing analytics, to business intelligence to product analysis and customer journey optimization.
 
-\begin{enumerate}
-    \item \textbf{Data Ingestion:} system beings to ingest data from all corners of the enterprise, including both transactional, operational and external data.
-    \item \textbf{Data Transformation:} data captured from the previous step is then cleansed for duplication, quality, and potentially scrubbed for privacy policies. This data then goes through a multifaceted enrichment process to facilitate data analysis. For instance, a journey of the veterinary nurse can be captured at every stage, enriched with demographics and animal breed for regression analysis and aggregate views.
-    \item \textbf{Data Serving:} at this stage, data is ready to be served to diverse array of needs ranging from machine learning to marketing analytics, to business intelligence to product analysis and customer journey optimization. In the `veterinary practice management software' example, the data platform can provide real-time data through event backbone system such as Kafka about customers who have applied and have been dispensed restricted veterinary medicine (RVM) to make sure that these transactions comply with the conditions of the registration of these products.
-\end{enumerate}
 
 The lifecycle depicted is indeed a high-level abstract view of prevalent BD systems. Howbeit, it highlights an important matter; these systems are all operating underlying monolithic data pipeline architecture that tends to account for all sorts of data in one architectural construct. This means, data that logically belong to different domains are now all lumped together and crunched in one place, making maintainability and scalability a daunting task \cite{monolithToMesh}.
 
