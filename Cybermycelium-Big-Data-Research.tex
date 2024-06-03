@@ -117,10 +117,9 @@ The process of turning data into actionable insights in these architectures usua
 cleansed for duplication, quality, and potentially scrubbed for privacy poli-
 cies. This data then goes through a multifaceted enrichment process to  facilitate data analysis, 3) \textbf{Data Serving:} at this stage, data is ready to be served to diverse array of needs ranging from machine learning to marketing analytics, to business intelligence to product analysis and customer journey optimization.
 
-
 The lifecycle depicted is indeed a high-level abstract view of prevalent BD systems. Howbeit, it highlights an important matter; these systems are all operating underlying monolithic data pipeline architecture that tends to account for all sorts of data in one architectural construct. This means, data that logically belong to different domains are now all lumped together and crunched in one place, making maintainability and scalability a daunting task \cite{monolithToMesh}.
 
-While architectures in software engineering have gone through series of evolution in the industry, adopting a more decentralized and distributed approaches such as microservices architecture, event driven architectures, reactive systems, and domain-driven design \cite{alshuqayran2016systematic}, the data engineering, and in specific BD ecosystems do not seem to be adopting many of these patterns. Evidence collected from this study have proven that attention to decentralized BD systems, metadata, and privacy is deficient. Therefore, the whole idea of `monolithic data pipeline architecture with no clearly defined domains and ownership' brings significant challenges to design, implementation, maintenance and scaling of BD systems. The challenges of current BD RAs is further elaborate in Section~\ref{theory-section}.
+While architectures in software engineering have gone through series of evolution in the industry, adopting a more decentralized and distributed approaches such as microservices architecture, event driven architectures, reactive systems, and domain-driven design \cite{alshuqayran2016systematic}, the data engineering, and in specific BD ecosystems do not seem to be adopting many of these patterns. Evidence collected from the works of Ataei et al. \cite{ataei2022state} have proven that attention to decentralized BD systems, metadata, and privacy is deficient. Therefore, the whole idea of `monolithic data pipeline architecture with no clearly defined domains and ownership' brings significant challenges to design, implementation, maintenance and scaling of BD systems. The challenges of current BD RAs is further elaborate in Section~\ref{theory-section}.
 
 To address these issues, we explore a domain-driven distributed RA for BD systems and propose a RA that addresses some of these challenges. This RA is inspired by the advances in software architectures, and in specific microservices, domain-driven design, and reactive systems. 
 
@@ -129,8 +128,8 @@ To address these issues, we explore a domain-driven distributed RA for BD system
 To justify why we have chosen RAs as the suitable artefact, first we have to clarify two assumptions;
 
 \begin{enumerate}
-    \item having a sound software architecture is essential to the successful development and maintenance of software systems \cite{SoftwareArchitectureKazman}
-    \item there exist a sufficient body of knowledge in the field of software architecture to support the development of an effective RA \cite{AtaeiACIS}
+    \item Having a sound software architecture is essential to the successful development and maintenance of software systems \cite{SoftwareArchitectureKazman}
+    \item There exist a sufficient body of knowledge in the field of software architecture to support the development of an effective RA \cite{AtaeiACIS}
 \end{enumerate}
 
 One of the focal tenets of software architecture is that every system is developed to satisfy a business objective, and that the architecture of the system is a bridge between abstract business goals to concrete final solutions \cite{SoftwareArchitectureKazman}. While the journey of BD can be quite challenging, the good news is that a software RA can be designed, analyzed and documented incorporating best practices, known techniques, and patterns that will support the achievement of the business goals. In this way, the complexity can be absorbed, and made tractable.
