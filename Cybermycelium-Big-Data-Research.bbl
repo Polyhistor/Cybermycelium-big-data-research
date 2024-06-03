@@ -1,0 +1,384 @@
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{AtaeiACIS}
+P.~Ataei, A.~T. Litchfield, Big data reference architectures, a systematic literature review, Australasian Conference on Information Systems (2020).
+
+\bibitem{AtaeiBigDataEnvirons}
+B.~B. Rad, P.~Ataei, The big data ecosystem and its environs, International Journal of Computer Science and Network Security (IJCSNS) 17~(3) (2017) 38.
+
+\bibitem{Gorton}
+I.~Gorton, J.~Klein, Distribution, data, deployment, STC 2015 (2015) 78.
+
+\bibitem{Nadal}
+S.~Nadal, V.~Herrero, O.~Romero, A.~Abelló, X.~Franch, S.~Vansummeren, D.~Valerio, A software reference architecture for semantic-aware big data systems, Information and software technology 90 (2017) 75--92.
+
+\bibitem{ataei2023towards}
+P.~Ataei, A.~Litchfield, Towards a domain-driven distributed reference architecture for big data systems, in: AMCIS 2023, 2023.
+
+\bibitem{DataBricksSurvey}
+M.~technology review insights in partnership~with Databricks, \href{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}{Building a high-performance data organization} (2021).
+\newline\urlprefix\url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
+
+\bibitem{NewVantageSurvey}
+N.~Partners, \href{https://www.supplychain247.com/paper/big_data_and_ai_executive_survey_2021/pragmadik}{Big data and ai executive survey 2021} (2021).
+\newline\urlprefix\url{https://www.supplychain247.com/paper/big_data_and_ai_executive_survey_2021/pragmadik}
+
+\bibitem{analytics2016age}
+M.~Analytics, The age of analytics: competing in a data-driven world, Tech. rep., Technical report, San Francisco: McKinsey \& Company (2016).
+
+\bibitem{Nash}
+H.~Nash, Cio survey 2015, Association with KPMG (2015).
+
+\bibitem{leonard2011design}
+E.~M. Leonard, Design and implementation of an enterprise data warehouse, Marquette University, 2011.
+
+\bibitem{ataei2022state}
+P.~Ataei, A.~Litchfield, The state of big data reference architectures: a systematic literature review, IEEE Access (2022).
+
+\bibitem{brackenbury2018draining}
+W.~Brackenbury, R.~Liu, M.~Mondal, A.~J. Elmore, B.~Ur, K.~Chard, M.~J. Franklin, Draining the data swamp: A similarity-based approach, in: Proceedings of the workshop on human-in-the-loop data analytics, 2018, pp. 1--7.
+
+\bibitem{AtaeiHype}
+B.~B. Rada, P.~Ataeib, Y.~Khakbizc, N.~Akbarzadehd, The hype of emerging technologies: Big data as a service, International Journal of Control Theory and Applications (2017).
+
+\bibitem{lin2017lambda}
+J.~Lin, The lambda and the kappa, IEEE Internet Computing 21~(05) (2017) 60--66.
+
+\bibitem{ApachBeam}
+A.~Beam, \href{https://beam.apache.org/}{Apache beam}, online (2022).
+\newline\urlprefix\url{https://beam.apache.org/}
+
+\bibitem{DataBricks}
+Databricks, \href{https://databricks.com/}{Databricks}, online (2022).
+\newline\urlprefix\url{https://databricks.com/}
+
+\bibitem{ataei2023application}
+P.~Ataei, D.~Staegemann, Application of microservices patterns to big data systems, Journal of Big Data 10~(1) (2023) 1--49.
+
+\bibitem{AtaeiApsec}
+P.~Ataei, A.~Litchfield, \href{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}{Neomycelia: A software reference architecturefor big data systems}, in: 2021 28th Asia-Pacific Software Engineering Conference (APSEC), IEEE Computer Society, Los Alamitos, CA, USA, 2021, pp. 452--462.
+\newblock \href {https://doi.org/10.1109/APSEC53868.2021.00052} {\path{doi:10.1109/APSEC53868.2021.00052}}.
+\newline\urlprefix\url{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}
+
+\bibitem{monolithToMesh}
+Z.~Dehghani, \href{https://martinfowler.com/articles/data-monolith-to-mesh.html}{How to move beyond a monolithic data lake to a distributed data mesh} (2019).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-monolith-to-mesh.html}
+
+\bibitem{alshuqayran2016systematic}
+N.~Alshuqayran, N.~Ali, R.~Evans, A systematic mapping study in microservice architecture, in: 2016 IEEE 9th International Conference on Service-Oriented Computing and Applications (SOCA), IEEE, 2016, pp. 44--51.
+
+\bibitem{SoftwareArchitectureKazman}
+R.~K. Len~Bass, Dr. Paul~Clements, Software Architecture in Practice (SEI Series in Software Engineering) 4th Edition, Addison-Wesley Professional; 4th edition, 2021.
+
+\bibitem{Cloutier}
+R.~Cloutier, G.~Muller, D.~Verma, R.~Nilchiani, E.~Hole, M.~Bone, The concept of reference architectures, Systems Engineering 13~(1) (2010) 14--27.
+
+\bibitem{kohler2019towards}
+J.~Kohler, T.~Specht, Towards a secure, distributed, and reliable cloud-based reference architecture for big data in smart cities, in: Big Data Analytics for Smart and Connected Cities, IGI Global, 2019, pp. 38--70.
+
+\bibitem{Derras}
+M.~Derras, L.~Deruelle, J.-M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner, Reference architecture design: A practical approach, in: ICSOFT, 2018, pp. 633--640.
+
+\bibitem{sommerville2011software}
+I.~Sommerville, Software Engineering, 9/E, Pearson Education India, 2011.
+
+\bibitem{laplante2017requirements}
+P.~A. Laplante, Requirements engineering for software and systems, Auerbach Publications, 2017.
+
+\bibitem{Bughin2016}
+J.~Bughin, Big data, big bang?, Journal of Big Data 3~(1) (2016) 2.
+\newblock \href {https://doi.org/10.1186/s40537-015-0014-3} {\path{doi:10.1186/s40537-015-0014-3}}.
+
+\bibitem{rad2017big}
+B.~B. Rad, P.~Ataei, The big data ecosystem and its environs, International Journal of Computer Science and Network Security (IJCSNS) 17~(3) (2017) 38.
+
+\bibitem{volk2020identifying}
+M.~Volk, D.~Staegemann, I.~Trifonova, S.~Bosse, K.~Turowski, Identifying similarities of big data projects--a use case driven approach, IEEE Access 8 (2020) 186599--186619.
+
+\bibitem{ataei2020big}
+P.~Ataei, A.~T. Litchfield, Big data reference architectures, a systematic literature review, Australasian Conference on Information Systems (2020).
+
+\bibitem{kassab2014state}
+M.~Kassab, C.~Neill, P.~Laplante, State of practice in requirements engineering: contemporary data, Innovations in Systems and Software Engineering 10~(4) (2014) 235--241.
+
+\bibitem{ISO29148}
+I.~29148:2018, \href{https://www.iso.org/standard/72089.html}{Iso/iec 29148:2018} (2018).
+\newline\urlprefix\url{https://www.iso.org/standard/72089.html}
+
+\bibitem{abran2004software}
+A.~Abran, J.~W. Moore, P.~Bourque, R.~Dupuis, L.~Tripp, Software engineering body of knowledge, IEEE Computer Society, Angela Burgess (2004) 25.
+
+\bibitem{bayer2004definition}
+J.~Bayer, T.~Forster, D.~Ganesan, J.-F. Girard, I.~John, J.~Knodel, R.~Kolb, D.~Muthig, Definition of reference architectures based on existing systems, Fraunhofer IESE, March (2004).
+
+\bibitem{stricker2010creating}
+V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl, Creating a reference architecture for service-based systems--a pattern-based approach, in: Towards the Future Internet, IOS Press, 2010, pp. 149--160.
+
+\bibitem{galster2011empirically}
+M.~Galster, P.~Avgeriou, Empirically-grounded reference architectures: a proposal, in: Proceedings of the joint ACM SIGSOFT conference--QoSA and ACM SIGSOFT symposium--ISARCS on Quality of software architectures--QoSA and architecting critical systems--ISARCS, 2011, pp. 153--158.
+
+\bibitem{nakagawa2014consolidating}
+E.~Y. Nakagawa, M.~Guessi, J.~C. Maldonado, D.~Feitosa, F.~Oquendo, Consolidating a process for the design, representation, and evaluation of reference architectures, in: 2014 IEEE/IFIP Conference on Software Architecture, IEEE, 2014, pp. 143--152.
+
+\bibitem{angelov2009classification}
+S.~Angelov, P.~Grefen, D.~Greefhorst, A classification of software reference architectures: Analyzing their success and effectiveness, in: 2009 Joint Working IEEE/IFIP Conference on Software Architecture \& European Conference on Software Architecture, IEEE, 2009, pp. 141--150.
+
+\bibitem{angelov2008towards}
+S.~Angelov, J.~J. Trienekens, P.~Grefen, Towards a method for the evaluation of reference architectures: Experiences from a case, in: European Conference on Software Architecture, Springer, 2008, pp. 225--240.
+
+\bibitem{gan2019open}
+Y.~Gan, Y.~Zhang, D.~Cheng, A.~Shetty, P.~Rathi, N.~Katarki, A.~Bruno, J.~Hu, B.~Ritchken, B.~Jackson, et~al., An open-source benchmark suite for microservices and their hardware-software implications for cloud \& edge systems, in: Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems, 2019, pp. 3--18.
+
+\bibitem{laigner2021data}
+R.~Laigner, Y.~Zhou, M.~A.~V. Salles, Y.~Liu, M.~Kalinowski, Data management in microservices: State of the practice, challenges, and research directions, arXiv preprint arXiv:2103.00170 (2021).
+
+\bibitem{QCON}
+QCON, \href{https://qconferences.com/}{Qcon software conferences} (2022).
+\newline\urlprefix\url{https://qconferences.com/}
+
+\bibitem{ThoughtWorks}
+ThoughtWorks, \href{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}{State of data mesh 2022} (2022).
+\newline\urlprefix\url{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}
+
+\bibitem{Geekle}
+Geekle, \href{https://events.geekle.us/software_architecture/}{Worldwide software architecture summit'21} (2021).
+\newline\urlprefix\url{https://events.geekle.us/software_architecture/}
+
+\bibitem{KafkaSummit}
+KafkaSummit, \href{https://www.confluent.io/events/kafka-summit-europe-2021/}{Kafka summit europe 2021} (2021).
+\newline\urlprefix\url{https://www.confluent.io/events/kafka-summit-europe-2021/}
+
+\bibitem{moher2015preferred}
+D.~Moher, L.~Shamseer, M.~Clarke, D.~Ghersi, A.~Liberati, M.~Petticrew, P.~Shekelle, L.~A. Stewart, Preferred reporting items for systematic review and meta-analysis protocols (prisma-p) 2015 statement, Systematic reviews 4~(1) (2015) 1--9.
+
+\bibitem{kitchenham2015evidence}
+B.~A. Kitchenham, D.~Budgen, P.~Brereton, Evidence-based software engineering and systematic reviews, Vol.~4, CRC press, 2015.
+
+\bibitem{castellanos2021smart}
+C.~Castellanos, B.~Perez, D.~Correal, Smart transportation: A reference architecture for big data analytics, in: Smart Cities: A Data Analytics Perspective, Springer, 2021, pp. 161--179.
+
+\bibitem{sang2017simplifying}
+G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a reference architecture, in: Working Conference on Virtual Enterprises, Springer, 2017, pp. 242--249.
+
+\bibitem{ISO20546}
+I.~O. for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/68305.html}{Iso/iec 20546:2019} (2019).
+\newline\urlprefix\url{https://www.iso.org/standard/68305.html}
+
+\bibitem{ISO20547}
+I.~O. for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/71275.html}{Iso/iec tr 20547-1:2020} (2020).
+\newline\urlprefix\url{https://www.iso.org/standard/71275.html}
+
+\bibitem{krippendorff2011computing}
+K.~Krippendorff, Computing krippendorff's alpha-reliability, Scholary commons (2011).
+
+\bibitem{CASP}
+C.~A.~S. Programme, \href{https://casp-uk.net/casp-tools-checklists/}{Critical appraisal skills programme} (2022).
+\newline\urlprefix\url{https://casp-uk.net/casp-tools-checklists/}
+
+\bibitem{cruzes2011recommended}
+D.~S. Cruzes, T.~Dyba, Recommended steps for thematic synthesis in software engineering, in: 2011 international symposium on empirical software engineering and measurement, IEEE, 2011, pp. 275--284.
+
+\bibitem{lofland1971analyzing}
+J.~Lofland, L.~H. Lofland, Analyzing social settings, Wadsworth Pub Belmont, CA, USA, 1971.
+
+\bibitem{nvivo}
+NVIVO, \href{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}{Unlock insights in your data with the best qualitative data analysis software} (2022).
+\newline\urlprefix\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}
+
+\bibitem{ISO42010}
+I.~International Organization~for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011} (2017).
+\newline\urlprefix\url{https://www.iso.org/standard/50508.html}
+
+\bibitem{lankhorst2013language}
+M.~Lankhorst, A language for enterprise modelling, in: Enterprise Architecture at Work, Springer, 2013, pp. 75--114.
+
+\bibitem{Stricker}
+V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl, Creating a reference architecture for service-based systems-a pattern-based approach, in: Future Internet Assembly, 2010, pp. 149--160.
+
+\bibitem{rurua2019representing}
+N.~Rurua, R.~Eshuis, M.~Razavian, Representing variability in enterprise architecture, Business \& Information Systems Engineering 61~(2) (2019) 215--227.
+
+\bibitem{la2009questionnaire}
+M.~La~Rosa, W.~M. van~der Aalst, M.~Dumas, A.~H. Ter~Hofstede, Questionnaire-based variability modeling for system configuration, Software \& Systems Modeling 8~(2) (2009) 251--274.
+
+\bibitem{rosemann2007configurable}
+M.~Rosemann, W.~M. Van~der Aalst, A configurable reference modelling language, Information systems 32~(1) (2007) 1--23.
+
+\bibitem{hallerbach2010capturing}
+A.~Hallerbach, T.~Bauer, M.~Reichert, Capturing variability in business process models: the provop approach, Journal of Software Maintenance and Evolution: Research and Practice 22~(6-7) (2010) 519--546.
+
+\bibitem{pohl2005software}
+K.~Pohl, G.~B{\"o}ckle, F.~Van Der~Linden, Software product line engineering: foundations, principles, and techniques, Vol.~1, Springer, 2005.
+
+\bibitem{chen2011systematic}
+L.~Chen, M.~A. Babar, A systematic review of evaluation of variability management approaches in software product lines, Information and Software Technology 53~(4) (2011) 344--362.
+
+\bibitem{schmid2004customizable}
+K.~Schmid, I.~John, A customizable approach to full lifecycle variability management, Science of Computer Programming 53~(3) (2004) 259--284.
+
+\bibitem{svahnberg2005taxonomy}
+M.~Svahnberg, J.~Van~Gurp, J.~Bosch, A taxonomy of variability realization techniques, Software: Practice and experience 35~(8) (2005) 705--754.
+
+\bibitem{sinnema2006covamof}
+M.~Sinnema, S.~Deelstra, P.~Hoekstra, The covamof derivation process, in: International Conference on Software Reuse, Springer, 2006, pp. 101--114.
+
+\bibitem{angelov2008contracting}
+S.~Angelov, P.~Grefen, An e-contracting reference architecture, Journal of Systems and Software 81~(11) (2008) 1816--1844.
+
+\bibitem{Avgeriou}
+P.~Avgeriou, Describing, instantiating and evaluating a reference architecture: A case study, Enterprise Architecture Journal 342 (2003) 1--24.
+
+\bibitem{Cioroaica}
+E.~Cioroaica, S.~Chren, B.~Buhnova, T.~Kuhn, D.~Dimitrov, Towards creation of a reference architecture for trust-based digital ecosystems, in: Proceedings of the 13th European Conference on Software Architecture-Volume 2, 2019, pp. 273--276.
+
+\bibitem{Maier}
+M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference architecture, University of Eindhoven (2013).
+
+\bibitem{kazman1994saam}
+R.~Kazman, L.~Bass, G.~Abowd, M.~Webb, Saam: A method for analyzing the properties of software architectures, in: Proceedings of 16th International Conference on Software Engineering, IEEE, 1994, pp. 81--90.
+
+\bibitem{Bengtsson}
+P.~Bengtsson, N.~Lassing, J.~Bosch, H.~van Vliet, Architecture-level modifiability analysis (alma), Journal of Systems and Software 69~(1-2) (2004) 129--147.
+
+\bibitem{Williams}
+L.~G. Williams, C.~U. Smith, Pasasm: a method for the performance assessment of software architectures, in: Proceedings of the 3rd international workshop on Software and performance, 2002, pp. 179--189.
+
+\bibitem{KazmanATAM}
+R.~Kazman, M.~Klein, M.~Barbacci, T.~Longstaff, H.~Lipson, J.~Carriere, The architecture tradeoff analysis method, in: Proceedings. Fourth IEEE International Conference on Engineering of Complex Computer Systems (Cat. No. 98EX193), IEEE, 1998, pp. 68--78.
+
+\bibitem{graaf2005evaluating}
+B.~Graaf, H.~Van~Dijk, A.~Van~Deursen, Evaluating an embedded software reference architecture-industrial experience report, in: Ninth European Conference on Software Maintenance and Reengineering, IEEE, 2005, pp. 354--363.
+
+\bibitem{sharpe2019industrial}
+R.~Sharpe, K.~Van~Lopik, A.~Neal, P.~Goodall, P.~P. Conway, A.~A. West, An industrial evaluation of an industry 4.0 reference architecture demonstrating the need for the inclusion of security and human components, Computers in industry 108 (2019) 37--44.
+
+\bibitem{rohling2019reference}
+A.~J. Rohling, V.~V.~G. Neto, M.~G.~V. Ferreira, W.~A. Dos~Santos, E.~Y. Nakagawa, A reference architecture for satellite control systems, Innovations in Systems and Software Engineering 15~(2) (2019) 139--153.
+
+\bibitem{Nakagawa}
+E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a process to design aspect-oriented reference architectures, in: XXXV Latin American Informatics Conference (CLEI) 2009, 2009, p.~0.
+
+\bibitem{reis2022fundamentals}
+J.~Reis, M.~Housley, Fundamentals of Data Engineering, " O'Reilly Media, Inc.", 2022.
+
+\bibitem{kleppmann2017designing}
+M.~Kleppmann, Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems, " O'Reilly Media, Inc.", 2017.
+
+\bibitem{ryzko2020modern}
+D.~Ryzko, Modern big data architectures: a multi-agent systems perspective, John Wiley \& Sons, 2020.
+
+\bibitem{warren2015big}
+J.~Warren, N.~Marz, Big Data: Principles and best practices of scalable realtime data systems, Simon and Schuster, 2015.
+
+\bibitem{disterer2013iso}
+G.~Disterer, Iso/iec 27000, 27001 and 27002 for information security management, Journal of Information Security 4~(2) (2013).
+
+\bibitem{hypothesisDev}
+B.~O'Reilly, \href{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}{How to implement hypothesis-driven development} (2014).
+\newline\urlprefix\url{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}
+
+\bibitem{ford2017building}
+N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support constant change, " O'Reilly Media, Inc.", 2017.
+
+\bibitem{newman2021building}
+S.~Newman, Building microservices, " O'Reilly Media, Inc.", 2021.
+
+\bibitem{kiran2015lambda}
+M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for cost-effective batch and speed big data processing, in: 2015 IEEE International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
+
+\bibitem{kreps2014questioning}
+J.~Kreps, \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning the lambda architecture}, Online article, July 205 (2014).
+\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
+
+\bibitem{SikoraWohlfeld2014}
+W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating secondary genome analysis using intel big data reference architecture., Intel (09 2014).
+
+\bibitem{quintero2019ibm}
+D.~Quintero, F.~N. Lee, et~al., IBM reference architecture for high performance data and AI in healthcare and life sciences, IBM Redbooks, 2019.
+
+\bibitem{cackett2013information}
+D.~Cackett, \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information management and big data, a reference architecture}, Oracle: Redwood City, CA, USA (2013).
+\newline\urlprefix\url{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}
+
+\bibitem{levin2013big}
+B.~Levin, Big data ecosystem reference architecture, Microsoft Corporation (2013).
+
+\bibitem{paakkonen2015reference}
+P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification of technologies, products and services for big data systems, Big data research 2~(4) (2015) 166--186.
+
+\bibitem{Chang}
+W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big data reference architecture, Report (2018).
+
+\bibitem{EventDrivenMicroServices}
+A.~Bellemare, \href{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}{Building Event-Driven Microservices: Leveraging Organizational Data at Scale}, O'Reilly Media, 2020.
+\newline\urlprefix\url{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}
+
+\bibitem{evans2004domain}
+E.~Evans, E.~J. Evans, Domain-driven design: tackling complexity in the heart of software, Addison-Wesley Professional, 2004.
+
+\bibitem{aceto2007reactive}
+L.~Aceto, A.~Ing{\'o}lfsd{\'o}ttir, K.~G. Larsen, J.~Srba, Reactive systems: modelling, specification and verification, cambridge university press, 2007.
+
+\bibitem{dataMeshArticle}
+Z.~Dehghani, \href{https://martinfowler.com/articles/data-mesh-principles.html}{Data mesh principles and logical architecture} (2020).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-mesh-principles.html}
+
+\bibitem{di2017architecting}
+P.~Di~Francesco, Architecting microservices, in: 2017 IEEE International Conference on Software Architecture Workshops (ICSAW), IEEE, 2017, pp. 224--229.
+
+\bibitem{zimmermann2017microservices}
+O.~Zimmermann, Microservices tenets, Computer Science-Research and Development 32~(3) (2017) 301--310.
+
+\bibitem{waseem2020systematic}
+M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices architecture in devops, Journal of Systems and Software 170 (2020) 110798.
+
+\bibitem{sudhakar2012model}
+G.~P. Sudhakar, A model of critical success factors for software projects, Journal of Enterprise Information Management (2012).
+
+\bibitem{khononov2021learning}
+V.~Khononov, Learning Domain-Driven Design, " O'Reilly Media, Inc.", 2021.
+
+\bibitem{Terraform}
+Hashicorp, \href{https://www.terraform.io/}{Terraform is an open-source infrastructure as code software tool that provides a consistent cli} (2022).
+\newline\urlprefix\url{https://www.terraform.io/}
+
+\bibitem{Segment}
+Segment, \href{https://segment.com/}{The leading customer data platform} (2022).
+\newline\urlprefix\url{https://segment.com/}
+
+\bibitem{Helm}
+Helm, \href{https://helm.sh/}{The package manager for kubernetes} (2022).
+\newline\urlprefix\url{https://helm.sh/}
+
+\bibitem{Make}
+Make, \href{https://www.gnu.org/software/make/manual/make.html#toc-An-Introduction-to-Makefiles}{Gnu make} (2022).
+\newline\urlprefix\url{https://www.gnu.org/software/make/manual/make.html#toc-An-Introduction-to-Makefiles}
+
+\bibitem{josey2016togaf}
+A.~Josey, TOGAF{\textregistered} Version 9.1-A Pocket Guide, Van Haren, 2016.
+
+\bibitem{cybermycelium2023}
+{Cybermycelium Templates and Scripts}, Anonymized Repository, \url{https://anonymous.4open.science/r/Cybermycelium-Templates-and-Scripts-77B1/} (2023).
+
+\bibitem{ISOMetadata}
+ISO, Iso 19115-1:2014, International Organization for Standardization (2019).
+
+\bibitem{GartnerDataCatalog}
+G.~D.~S. Ehtisham~Zaidi, Augmented data catalogs: Now an enterprise must-have for data and analytics leaders, Tech. rep., Gartner (2019).
+
+\bibitem{MicroServicesPatterns}
+C.~Richardson, \href{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}{Microservices Patterns: With examples in Java}, Manning; 1st edition, 2018.
+\newline\urlprefix\url{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}
+
+\bibitem{wieringa2014design}
+R.~J. Wieringa, Design science methodology for information systems and software engineering, Springer, 2014.
+
+\bibitem{ISO25000}
+ISO, Iso/iec 25000:2005 (2014).
+
+\end{thebibliography}
