@@ -125,28 +125,26 @@ To address these issues, we explore a domain-driven distributed RA for BD system
 
 \subsection{Why reference architecture?}
 
-To justify why we have chosen RAs as the suitable artefact, first we have to clarify two assumptions;
+To justify why we have chosen RAs as the suitable artefact, first we have to clarify two assumptions: 1) Having a sound software architecture is essential to the successful development and maintenance of software systems \cite{SoftwareArchitectureKazman}, 2) There exist a sufficient body of knowledge in the field of software architecture to support the development of an effective RA \cite{AtaeiACIS}.
 
-\begin{enumerate}
-    \item Having a sound software architecture is essential to the successful development and maintenance of software systems \cite{SoftwareArchitectureKazman}
-    \item There exist a sufficient body of knowledge in the field of software architecture to support the development of an effective RA \cite{AtaeiACIS}
-\end{enumerate}
 
 One of the focal tenets of software architecture is that every system is developed to satisfy a business objective, and that the architecture of the system is a bridge between abstract business goals to concrete final solutions \cite{SoftwareArchitectureKazman}. While the journey of BD can be quite challenging, the good news is that a software RA can be designed, analyzed and documented incorporating best practices, known techniques, and patterns that will support the achievement of the business goals. In this way, the complexity can be absorbed, and made tractable.
 
-Practitioners of complex systems, software engineers, and system designers have been frequently using RAs to have a collective understanding of system components, functionalities, data-flows and patterns which shape the overall qualities of system and help further adjust it to the business objectives \cite{Cloutier,kohler2019towards}. In software product line (SPL) development, RAs are generic artifacts that are configured and instantiated for a particular domain of systems \cite{Derras}. In software engineering, major IT giants like IBM has referred to RAs as the `best of best practices' to address unique and complex system development challenges \cite{Cloutier}. There is a fair amount of literature on RAs, and whereas different authors definition may vary, they all share the same tenets.
+Practitioners of complex systems, software engineers, and system designers have been frequently using RAs to have a collective understanding of system components, functionalities, data-flows and patterns which shape the overall qualities of system and help further adjust it to the business objectives \cite{Cloutier,kohler2019towards}. 
 
-A RA is amalgamation of architectural patterns, standards, and software engineering techniques that bridge the problem domain to a class of solutions. This artefact can be partially or completely instantiated and prototyped in a particular business context together with other supporting artefact to enable its use. RAs are often created from previous RAs \cite{AtaeiACIS}. Based on the premises discussed and taking all into consideration, RAs can facilitate the issues of BD architecture and data engineering because of the following reasons;
+% In software product line (SPL) development, RAs are generic artifacts that are configured and instantiated for a particular domain of systems \cite{Derras}. In software engineering, major IT giants like IBM has referred to RAs as the `best of best practices' to address unique and complex system development challenges \cite{Cloutier}. There is a fair amount of literature on RAs, and whereas different authors definition may vary, they all share the same tenets.
 
-\begin{enumerate}
-    \item RAs can promote adherence to best practice, standards, specifications and patterns
-    \item RAs can endow the data architecture team with openness and increase operability, incorporating architectural patterns that ensue desirable predefined quality attributes
-    \item RAs can be the best initial start to the BD journey, capturing design issues when they are still cheap
-    \item RAs can bring different stakeholders on the same table and help achieve consensus around major technological constructs
-    \item RAs can be effective in identifying and addressing cross-cutting concerns
-    \item RAs can serve as the organizational memory around design decisions, enlightening next subsequent decisions
-    \item RAs can act as a summary and blueprint in the portfolio of software engineers and software architects, resulting in better dissemination of knowledge
-\end{enumerate}
+A RA is amalgamation of architectural patterns, standards, and software engineering techniques that bridge the problem domain to a class of solutions. This artefact can be partially or completely instantiated and prototyped in a particular business context together with other supporting artefact to enable its use. RAs are often created from previous RAs \cite{AtaeiACIS}. Based on the premises discussed and taking all into consideration, RAs can facilitate the issues of BD architecture and data engineering because they promote adherences to best practices, they can capture cross-cutting concerns, they can serve as organizational memory around design decisions and act as a blueprint in the portfolio of data engineering and data architects. 
+
+
+\section{Related Work}
+
+The application of RAs to address challenges in data architecture is well-established, with notable contributions from both governmental agencies (e.g., NIST's Big Data RA \cite{Chang}) and industry leaders (e.g., IBM \cite{quintero2019ibm}, Microsoft \cite{levin2013big}).  Conceptual RAs have also been proposed \cite{Maier,suthakar2017scalable,framework2015draft}, and numerous domain-specific RAs have been developed, spanning fields like national security \cite{Klein} and the Internet of Things (IoT) \cite{weyrich2015reference}.
+
+However, while some RAs, such as the NBDRA, are comprehensive, most are published as brief papers or white papers lacking in detail. Additionally, while efforts like Neomycelia \cite{AtaeiApsec} and Phi \cite{maamouri2021phi} explore microservices architecture for BD systems, the majority of existing RAs remain monolithic and centralized \cite{ataei2022state}.
+
+This research extends current work by addressing these limitations through a novel domain-driven distributed architecture for BD systems. This approach emphasizes the logical separation of data into domains via event-driven communication with clearly defined boundaries \cite{AtaeiApsec}.
+
 
 \section{Research Methodology} \label{RM-section}
 
