@@ -6,45 +6,45 @@ Database file #1: mybibfile.bib
 Warning--empty pages in ataei2023towards
 Warning--empty institution in Chang
 Warning--empty year in Klein
-You've used 120 entries,
+You've used 118 entries,
             2952 wiz_defined-function locations,
-            1294 strings with 25206 characters,
-and the built_in function-call counts, 33594 in all, are:
-= -- 3018
-> -- 996
+            1288 strings with 24927 characters,
+and the built_in function-call counts, 32998 in all, are:
+= -- 2961
+> -- 973
 < -- 28
-+ -- 412
-- -- 292
-* -- 1833
-:= -- 4358
-add.period$ -- 122
-call.type$ -- 120
-change.case$ -- 103
++ -- 403
+- -- 285
+* -- 1794
+:= -- 4272
+add.period$ -- 120
+call.type$ -- 118
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 1230
-empty$ -- 4278
-format.name$ -- 359
-if$ -- 9177
+cite$ -- 121
+duplicate$ -- 1214
+empty$ -- 4214
+format.name$ -- 350
+if$ -- 9026
 int.to.chr$ -- 0
-int.to.str$ -- 120
-missing$ -- 113
-newline$ -- 396
-num.names$ -- 118
-pop$ -- 1032
+int.to.str$ -- 118
+missing$ -- 111
+newline$ -- 390
+num.names$ -- 116
+pop$ -- 1020
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2441
+skip$ -- 2405
 stack$ -- 0
-substring$ -- 1241
-swap$ -- 310
+substring$ -- 1198
+swap$ -- 308
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 234
-width$ -- 123
-write$ -- 985
+while$ -- 230
+width$ -- 121
+write$ -- 969
 (There were 3 warnings)
