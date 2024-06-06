@@ -108,6 +108,37 @@ M.~Weyrich, C.~Ebert, Reference architectures for the internet of things, IEEE S
 \bibitem{maamouri2021phi}
 A.~Maamouri, L.~Sfaxi, R.~Robbana, Phi: A generic microservices-based big data architecture, in: European, Mediterranean, and Middle Eastern Conference on Information Systems, 2021, pp. 3--16.
 
+\bibitem{DecipheringDataArchitectures}
+J.~Serra, \href{https://www.amazon.com/Deciphering-Data-Architectures-Warehouse-Lakehouse/dp/1098150767}{Deciphering Data Architectures: From Data Warehouse to Data Lakehouse}, Oreilly \& Associates Inc, 2024.
+\newline\urlprefix\url{https://www.amazon.com/Deciphering-Data-Architectures-Warehouse-Lakehouse/dp/1098150767}
+
+\bibitem{hypothesisDev}
+B.~O'Reilly, \href{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}{How to implement hypothesis-driven development} (2014).
+\newline\urlprefix\url{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}
+
+\bibitem{ford2017building}
+N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support constant change, " O'Reilly Media, Inc.", 2017.
+
+\bibitem{newman2021building}
+S.~Newman, Building microservices, " O'Reilly Media, Inc.", 2021.
+
+\bibitem{kiran2015lambda}
+M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for cost-effective batch and speed big data processing, in: 2015 IEEE International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
+
+\bibitem{kreps2014questioning}
+J.~Kreps, \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning the lambda architecture}, Online article, July 205 (2014).
+\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
+
+\bibitem{SikoraWohlfeld2014}
+W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating secondary genome analysis using intel big data reference architecture., Intel (09 2014).
+
+\bibitem{cackett2013information}
+D.~Cackett, \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information management and big data, a reference architecture}, Oracle: Redwood City, CA, USA (2013).
+\newline\urlprefix\url{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}
+
+\bibitem{paakkonen2015reference}
+P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification of technologies, products and services for big data systems, Big data research 2~(4) (2015) 166--186.
+
 \bibitem{sommerville2011software}
 I.~Sommerville, Software Engineering, 9/E, Pearson Education India, 2011.
 
@@ -218,33 +249,6 @@ J.~Warren, N.~Marz, Big Data: Principles and best practices of scalable realtime
 
 \bibitem{disterer2013iso}
 G.~Disterer, Iso/iec 27000, 27001 and 27002 for information security management, Journal of Information Security 4~(2) (2013).
-
-\bibitem{hypothesisDev}
-B.~O'Reilly, \href{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}{How to implement hypothesis-driven development} (2014).
-\newline\urlprefix\url{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}
-
-\bibitem{ford2017building}
-N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support constant change, " O'Reilly Media, Inc.", 2017.
-
-\bibitem{newman2021building}
-S.~Newman, Building microservices, " O'Reilly Media, Inc.", 2021.
-
-\bibitem{kiran2015lambda}
-M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for cost-effective batch and speed big data processing, in: 2015 IEEE International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
-
-\bibitem{kreps2014questioning}
-J.~Kreps, \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning the lambda architecture}, Online article, July 205 (2014).
-\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
-
-\bibitem{SikoraWohlfeld2014}
-W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating secondary genome analysis using intel big data reference architecture., Intel (09 2014).
-
-\bibitem{cackett2013information}
-D.~Cackett, \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information management and big data, a reference architecture}, Oracle: Redwood City, CA, USA (2013).
-\newline\urlprefix\url{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}
-
-\bibitem{paakkonen2015reference}
-P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification of technologies, products and services for big data systems, Big data research 2~(4) (2015) 166--186.
 
 \bibitem{EventDrivenMicroServices}
 A.~Bellemare, \href{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}{Building Event-Driven Microservices: Leveraging Organizational Data at Scale}, O'Reilly Media, 2020.
