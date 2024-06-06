@@ -182,7 +182,8 @@ Upon determining the type and category of requirements, a rigorous approach to p
 
 This research followed a systematic approach in the development of the RA, drawing upon existing methodologies and adapting them to the specific needs of this study. The foundation of this approach was laid by synthesizing key elements from various established RA development methodologies. Notable contributions from Cloutier et al. \cite{Cloutier}, Bayer et al. \cite{bayer2004definition}, and Stricker et al. \cite{stricker2010creating} were instrumental in forming the basis of the methodology. Each of these studies offered unique perspectives, ranging from contemporary information collection to pattern-based approaches, all contributing to a comprehensive understanding of RA development.
 
-The methodology was further refined by incorporating insights from Galster and Avgeriou \cite{galster2011empirically} and Nakagawa et al. \cite{nakagawa2014consolidating}, who provided a framework for empirically grounded RA development and detailed guidance on RA evaluation. 
+The methodology was further refined by incorporating insights from Galster and Avgeriou \cite{galster2011empirically} and Nakagawa et al. \cite{nakagawa2014consolidating}, who provided a framework for empirically grounded RA development and detailed guidance on RA evaluation. Galster et al. \cite{galster2011empirically} has been used as the main artefact development methodology, with addition of SLRs in `empirical data acquisition' phase, and Architecture Tradeoff Analyis Method (ATAM) for evaluating the artefact.
+
 
 Consequently, the methodology adopted for this research was structured into six distinct phases: 1) Decision on the type of RA, 2) Design strategy, 3) Empirical data acquisition, 4) Construction of the RA, 5) Enabling RA with variability, and 6) RA Evaluation.
 
@@ -211,102 +212,9 @@ Considering these perspectives, this study opts for a research-driven approach. 
  Due to the limitation witnessed by the research method 
 `empirically grounded reference architectures', specifically the lack of clear guidance on empirical acquisition of data, this phase is augmented by using a SLR on BD RAs presented by Ataei et al. \cite{ataei2022state}. This SLR is recent and captures the body of knowledge on current RAs in academia and industry.
 
-Findings from this study 
+The findings from this SLR shed lights on common components of BD RAs, the limitations of current BD RAs and various patterns of developing BD RAs. The construction phase of the RA was informed by the insights and components identified in the works of Ataei et al. \cite{ataei2022state}. Moreover, utilizing the ISO/IEC/IEEE 42010 standard \cite{ISO42010} as a foundational guideline, the construction phase was characterized by a selective integration of components.
 
-
-
-This phase is made up of three major undertakings; 1) identification of data sources; 2) capturing data sources; 3) synthesis of data sources.
-
-\subsubsection{Identification of data sources}
-
-To identify suitable data sources, we have employed the first step of ProSA-RA methodology `information source investigation'. This step is an endeavour to capture focal and ancillary knowledge and theories that revolve around the target domain, and lay the ground of RA development.
-
-To unearth the architectural quanta, and to highlight gradations between various approaches to BD system development, we have selected most relevant sources as the followings;
-
-\begin{enumerate}
-    \item{\bf{Practice-led conferences:}} given that majority of recent advancements for emerging technologies such as microservices architecture \cite{gan2019open, laigner2021data, laigner2021data} and BD are coming from virtually hosted practice-led conferences, we have chosen some of the best conferences hold world-wide for the purposes of data collection. These conferences are 1) Qcon \cite{QCON} 2) State of Data Mesh by ThoughtWorks \cite{ThoughtWorks} 3) Worldwide Software Architecture Summit \cite{Geekle} and 4) Kafka Summit Europe \cite{KafkaSummit}. Our objective was to capture the frontiers of software architecture and emerging approaches currently being practiced in IT giants such as Google, Facebook and Netflix. Among all the speech in these conferences, we looked for topics that entailed or were related to the keywords `emergent software architecture trends', `distributed software architecture', `BD software architecture' and `domain-driven design'. We used the software Nvivo to code the transcripts from the conference videos. We used the aforementioned keywords as the codes and associated different texts, summative, essence-capturing sentences, and evocative attributes to them.
-    
-    \item{\bf{Publications:}} in order to capture evidence from the body of knowledge, we conducted a SLR, following the guidelines of PRISMA presented by Moher et al. \cite{moher2015preferred}, and Kitchenham et al. \cite{kitchenham2015evidence}. Although PRISMA is a comprehensive guidelines for conducting a SLR, it is derived from the healthcare community and is driven by assumptions that may not be thoroughly relevant to software engineering and information system researchers. To this end, we adopted some guidelines from Kitchenham et al. for evidence based software engineering.
-    
-    The main objective of this SLR was to highlight common architectural constructs found among all the BD RAs. This SLR is build on top of our recent work \cite{AtaeiACIS} that covered all the RAs by 2020.
-
-    The initial SLR included IEEE Explore, ScienceDirect, SpringerLink, ACM library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The SLR search keywords used were `Big Data Reference Architectures’, `Reference Architectures in the domain of Big Data’, and `Reference Architectures and Big Data’. We followed the same methodology, but this time for the years 2021 and 2022. Our aim was to find out if there has been any new BD RA published.
-
-    By the result of this SLR, we have found 3 more BD RAs \cite{AtaeiApsec,castellanos2021smart,sang2017simplifying} and we have added two new standards \cite{ISO20546,ISO20547} to further solidify our study. Converging these new SLR with the old, covering the years 2010-2022, we have pooled 89 literature in the primary phase, and another 10 by snowballing and citation searching. These 99 literature then went through our inclusion, exclusion criteria. These criteria are as blow;
-
-    % \begin{itemize} 
-        \emph{Inclusion criteria:}
-        \begin{enumerate}
-            \item Primary and secondary studies between Jan 1st 2020 and Sep 1st 2022 focused on the topics of BD RA, BD architecture, and BD architectural components
-            \item Research that indicates the current state of RAs in the field of BD and demonstrates possible outcomes
-            \item Studies that are scholarly publications, books, book chapters, thesis, dissertations, or conference proceedings 
-            \item Grey literature such as white paper that includes extensive information on BD RAs
-        \end{enumerate}
-        \emph{exclusion criteria:}
-        \begin{enumerate}
-            \item Informal literature surveys without any clearly defined research questions or research process
-            \item Duplicate reports of the same study (a conference and journal version of the same paper)
-            \item Short papers (less than 5 pages)
-            \item Studies that are not written in English
-        \end{enumerate}
-
-    % \end{itemize}
-
-\end{enumerate}
-
-The screening process was undertaken independently by each researcher. To assess the consistency of evaluations among researchers, we employed Krippendorff's alpha, a statistical measure of inter-rater reliability \cite{krippendorff2011computing}. This approach was chosen to avoid the complexity of more elaborate statistical models. Computations were primarily performed using SPSS, utilizing Hayes' Macro for convenience. The resultant Krippendorff's alpha value exceeded the acceptable threshold, indicating a high level of agreement (above 80). In instances of disagreement, resolutions were achieved through collective discussion and consensus among the research team.
-
-After excluding papers based on inclusion and exclusion criteria, and as suggested by Kitchenham et al. \cite{kitchenham2015evidence}, we assessed studies based on their quality. For this purposes, and inspired by Critical Appraisal Skills Programme CASP \cite{CASP}, we developed our quality framework based on 7 criteria. These 7 criteria tested literature on 4 major areas that can critically affect the quality of the studies. These categories and the corresponding criteria are as following;
-
-\begin{enumerate}
-    \item \emph{Minimum quality threshold:} 
-    \begin{enumerate}
-        \item Does the study report empirical research or is it merely a `lesson learnt' report based on expert opinion ?
-        \item The objectives and aims of the study is clearly communicated, including the reasoning for why the study was undertaken ? 
-        \item Does the study provide with adequate information regarding the context in which the research was carried out ?
-    \end{enumerate}
-    \item \emph{Rigour:}
-    \begin{enumerate}
-        \item Is the research design appropriate to address the objectives of the research ?
-        \item Is there any data collection method used and is it appropriate ?
-    \end{enumerate}
-    \item \emph{Credibility:}
-      \begin{enumerate}
-        \item Does the study report findings in a clear and unbiased manner ? 
-     \end{enumerate}
-    \item \emph{Relevance:}
-    \begin{enumerate}
-        \item Does the study provides value for practice or research ?
-     \end{enumerate}
-\end{enumerate}
-
-Taken all together, these 7 criteria gave us a measure of the extent to which a particular study's findings could make a valuable contribution to the review. These criteria were disseminated as a checklist among researchers with value for each property being dichotomous, that is `yes’ or `no’ in two
-phases. In the first phase, researchers only assess the quality
-based on the first major area (minimum quality threshold).
-If the study passed the first phase, it would then go into the
-second phase, where it was assessed for credibility, rigour
-and relevance. The quality is agreed if 75\% of the responses
-are positive for any given study with at least 75\% inter-rater
-reliability.
-
-
-\subsubsection{Data Synthesis}
-
-After pooling the studies, 13 studies have been removed based on inclusion  and exclusion criteria. From there on, 76 studies have been assessed for eligibility based on the quality framework and the inclusion criteria. The result of this process handed over 63 studies from this branch (identification of studies visa database and registers). From the other branch (identification of data via other methods), 10 records identified through citation searching. These reports have been assessed through the same quality framework, inclusion and exclusion criteria, yielding 5 studies. Together 68 studies pooled for this SLR as depicted in Figure \ref{fig:PRISMA}.
-
-
-These 68 studies are comprising of journal papers, conference papers, book chapters, tech reports, tech surveys white papers, standards, master dissertation, and PhD thesis. Out of the pool of these studies, 39.4\% are from IEEE Explore, 4.4\% are from ScienceDirect, 23.5\% are from Springerlink, 13.2\% are from ACM, and 29.4\% are from other sources such as citation search, Google Scholar and Research Gate. 30 journal articles, 14 conference papers, 6 whitepapers, 2 ISO standards, 14 book chapters, and 2 postgraduate studies have been selected. 26\% of these studies are from the year 2010-2013, 33\% are from the years 2013-2015, and 51\% are from the years 2016-2022. These stats are portrayed in Figure \ref{fig:SLRStats}.
-
-
-By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. For this purpose, we employed thematic synthesis presented by Cruzes et al. \cite{cruzes2011recommended}. An integral element of this phase is data extraction, in which the essence of the studies are obtained in an explicit and consistent manner. We opted for an integrated approach to coding \cite{lofland1971analyzing} using the software Nvivo \cite{nvivo}. All the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. To increase transparency, RAs and standards found as the result of this SRL is presented in \ref{appendixA:SLR}. 
-   
-\subsection{Construction of the RA}
-
-The construction phase of the RA was informed by the insights and components identified in the preceding phases of the research. Utilizing the ISO/IEC/IEEE 42010 standard \cite{ISO42010} as a foundational guideline, the construction phase was characterized by a selective integration of its components.
-
-A key aspect of this phase was the adoption of the Archimate modeling language \cite{lankhorst2013language}, a component of the ISO/IEC/IEEE 42010 standard. Archimate's service-oriented approach effectively linked the application, business, and technology layers of the RA. The integration of themes, theories, and patterns identified in the empirical data acquisition phase (as discussed in sections \ref{identification-data-sources} and \ref{data-synthesis}) ensured that the RA was responsive to the specific needs identified in the research.
-
-The utilization of Archimate's diverse viewpoints provided a multi-dimensional perspective on the RA, incorporating technical, business, and customer context views. This approach, aligned with the concepts proposed by Cloutier et al. \cite{Cloutier} and Stricker et al. \cite{Stricker}, allowed for a comprehensive understanding of the RA, ensuring its alignment with the study's objectives and context.
+A key aspect of this phase was the adoption of the Archimate modeling language \cite{lankhorst2013language}, a component of the ISO/IEC/IEEE 42010 standard. Archimate's service-oriented approach effectively linked the application, business, and technology layers of the RA. This approach, aligned with the concepts proposed by Cloutier et al. \cite{Cloutier} and Stricker et al. \cite{Stricker}, allowing for a comprehensive understanding of the RA, and ensuring its alignment with the study's objectives and context.
 
 
 
@@ -315,11 +223,13 @@ The utilization of Archimate's diverse viewpoints provided a multi-dimensional p
 
 The integration of variability into the RA is a pivotal aspect, enabling it to adapt to specific organizational regulations and regional policy constraints \cite{rurua2019representing}. This adaptability is essential for ensuring the RA's applicability across diverse implementation scenarios.
 
-Variability management is a concept adapted from Business Process Management (BPM) and Software Product Line Engineering (SPLE), fields where managing variations in processes and software artifacts is critical \cite{la2009questionnaire, rosemann2007configurable, hallerbach2010capturing, pohl2005software, chen2011systematic, schmid2004customizable, svahnberg2005taxonomy, sinnema2006covamof}. In BPM, the focus is on handling various business process variants, while SPLE emphasizes the customization of software products for specific needs. These principles are leveraged in RA development to ensure flexibility and responsiveness to different architectural requirements and constraints.
+Variability management is a concept adapted from Business Process Management (BPM) and Software Product Line Engineering (SPLE), fields where managing variations in processes and software artifacts is critical \cite{la2009questionnaire, rosemann2007configurable, hallerbach2010capturing}
 
-For the RA developed in this study, the mechanism to incorporate variability draws inspiration from the works of Galster et al. \cite{galster2011empirically} and Rurua et al. \cite{rurua2019representing}. This is achieved through the use of Archimate annotations, a method that allows for clear delineation of variability aspects within the RA. The process involves the creation of a specialized Archimate layer to represent key concepts of variability, followed by the extension of the RA using annotations. This approach is designed to highlight critical areas for adaptation within the RA, rather than identifying every possible point of variability.
+For the RA developed in this study, the mechanism to incorporate variability draws inspiration from the works of Galster et al. \cite{galster2011empirically} and Rurua et al. \cite{rurua2019representing}. This is achieved through the use of Archimate annotations, a method that allows for clear delineation of variability aspects within the RA. 
 
-The variability model is depicted using Archimate's motivation layer, inspired by Pohl et al.'s graphical approach to variability notation \cite{pohl2005software} and the variability management concepts model by Rurua et al. \cite{rurua2019representing}. This model serves as a practical tool for architects, guiding the customization of the RA, specifically Cybermycelium, as elaborated in \ref{the-artifact}.
+% The process involves the creation of a specialized Archimate layer to represent key concepts of variability, followed by the extension of the RA using annotations. This approach is designed to highlight critical areas for adaptation within the RA, rather than identifying every possible point of variability.
+
+% The variability model is depicted using Archimate's motivation layer, inspired by Pohl et al.'s graphical approach to variability notation \cite{pohl2005software} and the variability management concepts model by Rurua et al. \cite{rurua2019representing}. This model serves as a practical tool for architects, guiding the customization of the RA, specifically Cybermycelium, as elaborated in \ref{the-artifact}.
 
 
 \subsection{Evaluation of the RA}

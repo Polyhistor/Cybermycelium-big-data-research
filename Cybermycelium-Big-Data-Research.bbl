@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -149,65 +149,6 @@ S.~Angelov, P.~Grefen, D.~Greefhorst, A classification of software reference arc
 \bibitem{angelov2008towards}
 S.~Angelov, J.~J. Trienekens, P.~Grefen, Towards a method for the evaluation of reference architectures: Experiences from a case, in: European Conference on Software Architecture, Springer, 2008, pp. 225--240.
 
-\bibitem{gan2019open}
-Y.~Gan, Y.~Zhang, D.~Cheng, A.~Shetty, P.~Rathi, N.~Katarki, A.~Bruno, J.~Hu, B.~Ritchken, B.~Jackson, et~al., An open-source benchmark suite for microservices and their hardware-software implications for cloud \& edge systems, in: Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems, 2019, pp. 3--18.
-
-\bibitem{laigner2021data}
-R.~Laigner, Y.~Zhou, M.~A.~V. Salles, Y.~Liu, M.~Kalinowski, Data management in microservices: State of the practice, challenges, and research directions, arXiv preprint arXiv:2103.00170 (2021).
-
-\bibitem{QCON}
-QCON, \href{https://qconferences.com/}{Qcon software conferences} (2022).
-\newline\urlprefix\url{https://qconferences.com/}
-
-\bibitem{ThoughtWorks}
-ThoughtWorks, \href{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}{State of data mesh 2022} (2022).
-\newline\urlprefix\url{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}
-
-\bibitem{Geekle}
-Geekle, \href{https://events.geekle.us/software_architecture/}{Worldwide software architecture summit'21} (2021).
-\newline\urlprefix\url{https://events.geekle.us/software_architecture/}
-
-\bibitem{KafkaSummit}
-KafkaSummit, \href{https://www.confluent.io/events/kafka-summit-europe-2021/}{Kafka summit europe 2021} (2021).
-\newline\urlprefix\url{https://www.confluent.io/events/kafka-summit-europe-2021/}
-
-\bibitem{moher2015preferred}
-D.~Moher, L.~Shamseer, M.~Clarke, D.~Ghersi, A.~Liberati, M.~Petticrew, P.~Shekelle, L.~A. Stewart, Preferred reporting items for systematic review and meta-analysis protocols (prisma-p) 2015 statement, Systematic reviews 4~(1) (2015) 1--9.
-
-\bibitem{kitchenham2015evidence}
-B.~A. Kitchenham, D.~Budgen, P.~Brereton, Evidence-based software engineering and systematic reviews, Vol.~4, CRC press, 2015.
-
-\bibitem{castellanos2021smart}
-C.~Castellanos, B.~Perez, D.~Correal, Smart transportation: A reference architecture for big data analytics, in: Smart Cities: A Data Analytics Perspective, Springer, 2021, pp. 161--179.
-
-\bibitem{sang2017simplifying}
-G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a reference architecture, in: Working Conference on Virtual Enterprises, Springer, 2017, pp. 242--249.
-
-\bibitem{ISO20546}
-I.~O. for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/68305.html}{Iso/iec 20546:2019} (2019).
-\newline\urlprefix\url{https://www.iso.org/standard/68305.html}
-
-\bibitem{ISO20547}
-I.~O. for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/71275.html}{Iso/iec tr 20547-1:2020} (2020).
-\newline\urlprefix\url{https://www.iso.org/standard/71275.html}
-
-\bibitem{krippendorff2011computing}
-K.~Krippendorff, Computing krippendorff's alpha-reliability, Scholary commons (2011).
-
-\bibitem{CASP}
-C.~A.~S. Programme, \href{https://casp-uk.net/casp-tools-checklists/}{Critical appraisal skills programme} (2022).
-\newline\urlprefix\url{https://casp-uk.net/casp-tools-checklists/}
-
-\bibitem{cruzes2011recommended}
-D.~S. Cruzes, T.~Dyba, Recommended steps for thematic synthesis in software engineering, in: 2011 international symposium on empirical software engineering and measurement, IEEE, 2011, pp. 275--284.
-
-\bibitem{lofland1971analyzing}
-J.~Lofland, L.~H. Lofland, Analyzing social settings, Wadsworth Pub Belmont, CA, USA, 1971.
-
-\bibitem{nvivo}
-NVIVO, \href{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}{Unlock insights in your data with the best qualitative data analysis software} (2022).
-\newline\urlprefix\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}
-
 \bibitem{ISO42010}
 I.~International Organization~for Standardization~(ISO/IEC), \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011} (2017).
 \newline\urlprefix\url{https://www.iso.org/standard/50508.html}
@@ -229,21 +170,6 @@ M.~Rosemann, W.~M. Van~der Aalst, A configurable reference modelling language, I
 
 \bibitem{hallerbach2010capturing}
 A.~Hallerbach, T.~Bauer, M.~Reichert, Capturing variability in business process models: the provop approach, Journal of Software Maintenance and Evolution: Research and Practice 22~(6-7) (2010) 519--546.
-
-\bibitem{pohl2005software}
-K.~Pohl, G.~B{\"o}ckle, F.~Van Der~Linden, Software product line engineering: foundations, principles, and techniques, Vol.~1, Springer, 2005.
-
-\bibitem{chen2011systematic}
-L.~Chen, M.~A. Babar, A systematic review of evaluation of variability management approaches in software product lines, Information and Software Technology 53~(4) (2011) 344--362.
-
-\bibitem{schmid2004customizable}
-K.~Schmid, I.~John, A customizable approach to full lifecycle variability management, Science of Computer Programming 53~(3) (2004) 259--284.
-
-\bibitem{svahnberg2005taxonomy}
-M.~Svahnberg, J.~Van~Gurp, J.~Bosch, A taxonomy of variability realization techniques, Software: Practice and experience 35~(8) (2005) 705--754.
-
-\bibitem{sinnema2006covamof}
-M.~Sinnema, S.~Deelstra, P.~Hoekstra, The covamof derivation process, in: International Conference on Software Reuse, Springer, 2006, pp. 101--114.
 
 \bibitem{angelov2008contracting}
 S.~Angelov, P.~Grefen, An e-contracting reference architecture, Journal of Systems and Software 81~(11) (2008) 1816--1844.
@@ -342,6 +268,9 @@ O.~Zimmermann, Microservices tenets, Computer Science-Research and Development 3
 
 \bibitem{waseem2020systematic}
 M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices architecture in devops, Journal of Systems and Software 170 (2020) 110798.
+
+\bibitem{laigner2021data}
+R.~Laigner, Y.~Zhou, M.~A.~V. Salles, Y.~Liu, M.~Kalinowski, Data management in microservices: State of the practice, challenges, and research directions, arXiv preprint arXiv:2103.00170 (2021).
 
 \bibitem{sudhakar2012model}
 G.~P. Sudhakar, A model of critical success factors for software projects, Journal of Enterprise Information Management (2012).
