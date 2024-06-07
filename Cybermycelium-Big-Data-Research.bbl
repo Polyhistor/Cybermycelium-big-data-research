@@ -229,21 +229,6 @@ A.~J. Rohling, V.~V.~G. Neto, M.~G.~V. Ferreira, W.~A. Dos~Santos, E.~Y. Nakagaw
 \bibitem{Nakagawa}
 E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a process to design aspect-oriented reference architectures, in: XXXV Latin American Informatics Conference (CLEI) 2009, 2009, p.~0.
 
-\bibitem{reis2022fundamentals}
-J.~Reis, M.~Housley, Fundamentals of Data Engineering, " O'Reilly Media, Inc.", 2022.
-
-\bibitem{kleppmann2017designing}
-M.~Kleppmann, Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems, " O'Reilly Media, Inc.", 2017.
-
-\bibitem{ryzko2020modern}
-D.~Ryzko, Modern big data architectures: a multi-agent systems perspective, John Wiley \& Sons, 2020.
-
-\bibitem{warren2015big}
-J.~Warren, N.~Marz, Big Data: Principles and best practices of scalable realtime data systems, Simon and Schuster, 2015.
-
-\bibitem{disterer2013iso}
-G.~Disterer, Iso/iec 27000, 27001 and 27002 for information security management, Journal of Information Security 4~(2) (2013).
-
 \bibitem{EventDrivenMicroServices}
 A.~Bellemare, \href{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}{Building Event-Driven Microservices: Leveraging Organizational Data at Scale}, O'Reilly Media, 2020.
 \newline\urlprefix\url{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}
