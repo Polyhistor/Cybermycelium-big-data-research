@@ -112,16 +112,6 @@ A.~Maamouri, L.~Sfaxi, R.~Robbana, Phi: A generic microservices-based big data a
 J.~Serra, \href{https://www.amazon.com/Deciphering-Data-Architectures-Warehouse-Lakehouse/dp/1098150767}{Deciphering Data Architectures: From Data Warehouse to Data Lakehouse}, Oreilly \& Associates Inc, 2024.
 \newline\urlprefix\url{https://www.amazon.com/Deciphering-Data-Architectures-Warehouse-Lakehouse/dp/1098150767}
 
-\bibitem{hypothesisDev}
-B.~O'Reilly, \href{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}{How to implement hypothesis-driven development} (2014).
-\newline\urlprefix\url{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}
-
-\bibitem{ford2017building}
-N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support constant change, " O'Reilly Media, Inc.", 2017.
-
-\bibitem{newman2021building}
-S.~Newman, Building microservices, " O'Reilly Media, Inc.", 2021.
-
 \bibitem{kiran2015lambda}
 M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for cost-effective batch and speed big data processing, in: 2015 IEEE International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
 
@@ -131,6 +121,10 @@ J.~Kreps, \href{https://www.oreilly.com/radar/questioning-the-lambda-architectur
 
 \bibitem{SikoraWohlfeld2014}
 W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating secondary genome analysis using intel big data reference architecture., Intel (09 2014).
+
+\bibitem{DataMesh}
+Z.~Dehghani, \href{https://www.amazon.com/Data-Mesh-Delivering-Data-Driven-Value/dp/1492092398/ref=sr_1_1?crid=5YWKS24L2BK4&keywords=data+mesh&qid=1647136984&sprefix=dat%2Caps%2C646&sr=8-1}{Data Mesh: Delivering Data-Driven Value at Scale}, O'Reilly Media, 2022.
+\newline\urlprefix\url{https://www.amazon.com/Data-Mesh-Delivering-Data-Driven-Value/dp/1492092398/ref=sr_1_1?crid=5YWKS24L2BK4&keywords=data+mesh&qid=1647136984&sprefix=dat%2Caps%2C646&sr=8-1}
 
 \bibitem{cackett2013information}
 D.~Cackett, \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information management and big data, a reference architecture}, Oracle: Redwood City, CA, USA (2013).
